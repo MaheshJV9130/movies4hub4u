@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #1d1d1d;
+}
+.nav{
+    background-color: #27272a;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    padding: 18px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#search{
+    padding: 10px;
+    background-color: #18181b;
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+    display: inline;
+}
+#btn{
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #009de1;
+    color: white;
+}
+.movieContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.33rem;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 12px;
+   
+}
+
+.movie {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 450px;
+    box-shadow: 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+}
+
+img {
+    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+img:hover {
+    filter: brightness(0.9);
+}
+
+.title {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.title:hover {
+    color: #918585;
+}
+
+#dbtn {
+    cursor: pointer;
+    margin: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: #009de1;
+    color: white;
+}
+
+#dbtn:hover,#btn:hover{
+    color: #009de1;
+    background-color: white;
+}
+
+@media (max-width:500px) {
+    .nav{
+        padding: 10px;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .searchBox{
+        width: 50%;
+
+    }
+    #search{
+        padding: 10px;
+        gap: 1rem;
+       width: 80%;
+    }
+    .movieContainer{
+       
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 10px;
+       
+    }
+    .movie{
+        width: 40%;
+        height: 330px;
+    }
+    .title {
+        font-size: 12px;
+    }
+    #dbtn{
+        margin: 8px;
+        padding: 8px;
+        width: fit-content;
+    }
+    .img {
+        width: 100%;
+        height: 200px;
+    }
+    
+}
+
+
+
+  
