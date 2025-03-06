@@ -56,7 +56,7 @@ async function getData(){
     moviesArr.forEach(movieObj => {;
         let movieCard = document.createElement('div');
         movieCard.classList.add('movie');
-        movieCard.innerHTML = `  <div class="img"><img loading= "lazy" src="${movieObj.poster_path}" alt="${movieObj.original_title}"></div>
+        movieCard.innerHTML = `  <div class="img"><img loading= "lazy" height = "300" width = "212" src="${movieObj.poster_path}" alt="${movieObj.original_title}"></div>
         <div class="title">
             <p>${movieObj.original_title} ${(movieObj.release_date.split('/').pop())}</p>
         </div>
