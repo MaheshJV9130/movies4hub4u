@@ -1,6 +1,5 @@
-# Movies4Hub4U
-
-Movies4Hub4U is a simple movie search and discovery website built from scratch using **HTML**, **CSS**, and **JavaScript**. This project demonstrates how to fetch and display movie data from public APIs, and provides a clean, responsive UI for users to search for their favorite movies and shows.
+# [Movies4Hub4U](https://movies4hub4u.netlify.app/) 
+- Movies4Hub4U is a simple movie search and discovery website built from scratch using **HTML**, **CSS**, and **JavaScript**. This project demonstrates how to fetch and display movie data from public APIs, and provides a clean, responsive UI for users to search for their favorite movies and shows.
 
 ## Features
 
@@ -18,10 +17,10 @@ Movies4Hub4U is a simple movie search and discovery website built from scratch u
 
 ## APIs Used
 
-- [FrankeyJSON API](https://jsonfakery.com/movies/random/50)  
+- [FrankeyJSON API](https://jsonfakery.com/movies)  
   Used to fetch random movies for the homepage.
 
-- [IMDB Free API](https://imdb.iamidiotareyoutoo.com/search?q=)  
+- [IMDB Free API](https://imdb.iamidiotareyoutoo.com)
   Used for searching movies and shows by title, actor, or genre.
 
 ## How It Works
