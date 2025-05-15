@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 app.use(express.static('public'))
 app.get('/download', (req, res) => {
-  res.download('./assets/download.gif')
+  res.download('./assets/movie.mov')
 })
 app.get('/', (req, res) => {
   res.sendFile('public/index.html')
