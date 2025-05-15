@@ -49,6 +49,11 @@ async function getMovies() {
         </div>
         <button id="dbtn">Download</button>`;
       movieContainer.append(movieCard);
+      const dbtn = document.getElementById('dbtn');
+      dbtn.addEventListener('click',()=>{
+        location.href = '/download'
+        
+      })
     });
   } catch (error) {
     console.error(error);
