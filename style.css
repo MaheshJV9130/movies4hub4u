@@ -115,14 +115,10 @@ img:hover {
     border: none;
     outline: none;
     padding: 12px;
-    background-color: #009de1;
+    background-color: white;
     color: white;
 }
 
-.dbtn:hover,#btn:hover{
-    color: #009de1;
-    background-color: white;
-}
 
 @media (max-width:500px) {
     .nav{
@@ -179,3 +175,11 @@ img:hover {
   }
 
   
+.dbtn a{
+ text-decoration: none;
+ color: #009de1;
+}
+.dbtn a:hover{
+ text-decoration: 2px purple underline;
+ 
+}

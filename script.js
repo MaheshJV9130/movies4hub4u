@@ -47,15 +47,9 @@ async function getMovies() {
         <div class="title">
             <p>${movieObj["#TITLE"]} ${movieObj["#YEAR"]}</p>
         </div>
-        <button class="dbtn">Download</button>`;
+        <button class="dbtn"><a href="assets/movie.mov" download>Download</a></button>`;
       movieContainer.append(movieCard);
-const buttons = document.querySelectorAll('.dbtn');
-     
-      buttons.forEach((button)=>{
-        button.addEventListener('click',()=>{
-          location.href = '/download'
-        })
-      })
+
     
     });
   } catch (error) {
@@ -79,18 +73,11 @@ async function getData() {
       .split("/")
       .pop()}</p>
         </div>
-        <button class="dbtn">Download</button>`;
+        <button class="dbtn"><a href="assets/movie.mov" download>Download</a></button>`;
         let movieContainer = document.getElementsByClassName("movieContainer")[0];
         movieContainer.append(movieCard);
 
-       
-const buttons = document.querySelectorAll('.dbtn');
 
-      buttons.forEach((button)=>{
-        button.addEventListener('click',()=>{
-          location.href = '/download'
-        })
-      })
      
     
   });
