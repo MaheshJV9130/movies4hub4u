@@ -108,7 +108,7 @@ img:hover {
     color: #918585;
 }
 
-#dbtn {
+.dbtn {
     cursor: pointer;
     margin: 12px;
     border-radius: 12px;
@@ -119,7 +119,7 @@ img:hover {
     color: white;
 }
 
-#dbtn:hover,#btn:hover{
+.dbtn:hover,#btn:hover{
     color: #009de1;
     background-color: white;
 }
@@ -155,7 +155,7 @@ img:hover {
     .title {
         font-size: 12px;
     }
-    #dbtn{
+    .dbtn{
         margin: 8px;
         padding: 8px;
         width: fit-content;
