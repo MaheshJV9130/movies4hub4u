@@ -86,21 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
   getData();
 });
 
-const searchPlaceholders = [
-  "Search for movies, shows, or genres...",
-  "Find your next binge-worthy obsession...",
-  "Feeling lucky? Type a genre or title...",
-  "What are you in the mood for tonight?",
-  "Start typing — your next favorite show is waiting...",
-  "Explore worlds, one search at a time...",
-  "“I’ll be back”… but first, search something.",
-  "Winter is coming... what are you watching?",
-  "Avengers, anime, or action? Search away!",
-  "Looking for laughs, chills, or thrills?",
-  "Type a title, actor, or genre — we've got it.",
-  "Can’t decide? Just type “random”!",
-];
-
 function getSearchPlaceholder() {
   const searchPlaceholders = [
     "Search for movies, shows, or genres...",
