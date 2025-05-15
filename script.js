@@ -29,7 +29,17 @@ async function getMovies() {
       `https://imdb.iamidiotareyoutoo.com/search?q=${movie}`
     );
     let data = await responce.json();
+    
     let moviesArr = data.description;
+    console.log(moviesArr.length)
+    if(moviesArr.length == 0){
+      movieContainer.innerHTML = `
+      <div class="notfound">
+        🔍 No search results found.
+     </div>
+      `;
+      console.error("No Search Result Found")
+    }
     moviesArr.forEach((movieObj) => {
       let movieCard = document.createElement("div");
       movieCard.classList.add("movie");
@@ -43,6 +53,7 @@ async function getMovies() {
   } catch (error) {
     console.error(error);
   }
+  
 }
 
 let url = "https://jsonfakery.com/movies/random/50";

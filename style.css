@@ -167,6 +167,15 @@ img:hover {
     
 }
 
-
+ .notfound {
+    text-align: center;
+    padding: 40px 20px;
+    color: #555;
+    font-size: 1.25rem;
+    background-color: #f9f9f9;
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
 
   
