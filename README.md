@@ -7,7 +7,7 @@
   Instantly search for movies and TV shows using the free IMDB API.
 
 - 🎲 **Random Movies on Home:**  
-  On page load, the site displays a random selection of movies using the FrankeyJSON API.
+  On page load, the site displays a random selection of movies using the JSONFakery API.
 
 - 📥 **Download Button (Demo):**  
   Each movie card includes a download button (for demo purposes, links to a sample file).
@@ -17,7 +17,7 @@
 
 ## APIs Used
 
-- [FrankeyJSON API](https://jsonfakery.com/movies)  
+- [JSONFakery API](https://jsonfakery.com)  
   Used to fetch random movies for the homepage.
 
 - [IMDB Free API](https://imdb.iamidiotareyoutoo.com)
